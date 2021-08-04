@@ -37,7 +37,7 @@ class DataModel: ObservableObject {
         let formattedDate = DateHelper.getDateString(day: day)
         
         //create URL
-        guard let url = URL(string: "https://fly.sportsdata.io/v3/nba/scores/json/GamesByDate/\(formattedDate)?key=\(Constants.apiKey)") else {
+        guard let url = URL(string: "https://fly.sportsdata.io/v3/nba/scores/json/GamesByDate/2020-DEC-11?key=\(Constants.apiKey)") else {
             fatalError("Wrong URL for Schedule")
         }
         

@@ -53,6 +53,13 @@ class DateHelper {
         return "\(year)-\(month)-\(day)"
     }
     
+    static func convertStringToDate(dateString: String) -> Date {
+        //TODO
+        
+        
+        return Date()
+    }
+    
     static func getTimeString(time: String) -> String {
         
         let dateFormatter = DateFormatter()
