@@ -9,7 +9,7 @@ import Foundation
 
 class Constants {
     
-    static let apiKey = "4f7622599ad64bbfb5a21d55d80a4438"
+    static let apiKey = "your key"
     
     
     enum LoginMode {
