@@ -16,6 +16,7 @@ class DataModel: ObservableObject {
     
     @Published var standings:Standings?
     
+    
     init() {
         //default day is today
         self.selectedDay = DateCategory.today
@@ -34,7 +35,7 @@ class DataModel: ObservableObject {
     func loadSched(day: DateCategory) {
         
         //get string date in right format
-        let formattedDate = DateHelper.getDateString(day: day)
+        //let formattedDate = DateHelper.getDateString(day: day)
         
         //create URL
         guard let url = URL(string: "https://fly.sportsdata.io/v3/nba/scores/json/GamesByDate/2020-DEC-11?key=\(Constants.apiKey)") else {
@@ -102,6 +103,7 @@ class DataModel: ObservableObject {
                     var newStandings = Standings()
                     DispatchQueue.main.async {
                         newStandings.teams = incomingData
+                        newStandings.sortConferences()
                         self.standings = newStandings
                     }
                 }

@@ -17,7 +17,7 @@ struct ScheduleView: View {
 //            Color("backdrop")
 //                .ignoresSafeArea()
             
-            ScrollView {
+            ScrollView(showsIndicators: false) {
                 
                 LazyVStack(spacing: 20) {
                     
