@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import FirebaseAuth
+
 
 class DataModel: ObservableObject {
     //Dictionary of schedule instances
@@ -16,6 +18,8 @@ class DataModel: ObservableObject {
     
     @Published var standings:Standings?
     
+    //Authentication
+    @Published var loggedIn = false
     
     init() {
         //default day is today
@@ -31,6 +35,13 @@ class DataModel: ObservableObject {
         loadStandings()
         
     }
+    
+    
+    func checkLogin() {
+        loggedIn = Auth.auth().currentUser != nil ? true : false
+        
+    }
+    
     
     func loadSched(day: DateCategory) {
         

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,13 +18,17 @@
 		6105371D26BA8B38006FD64C /* DateHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105371C26BA8B38006FD64C /* DateHelpers.swift */; };
 		6105371F26BA8E64006FD64C /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105371E26BA8E64006FD64C /* ScheduleView.swift */; };
 		6105372126BA8E6F006FD64C /* StandingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105372026BA8E6F006FD64C /* StandingsView.swift */; };
-		6105372326BA8E8A006FD64C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105372226BA8E8A006FD64C /* SettingsView.swift */; };
+		6105372326BA8E8A006FD64C /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105372226BA8E8A006FD64C /* LogoutView.swift */; };
 		6105372726BA9EAC006FD64C /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105372626BA9EAC006FD64C /* GameView.swift */; };
 		6105372926BA9EBD006FD64C /* InforColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105372826BA9EBD006FD64C /* InforColumnView.swift */; };
 		614B209426BBCF59000D19E3 /* ConferenceStandingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B209326BBCF59000D19E3 /* ConferenceStandingsView.swift */; };
+		614B20B926BBE5ED000D19E3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614B20B826BBE5ED000D19E3 /* LoginView.swift */; };
+		614B20BE26BBED72000D19E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 614B20BD26BBED72000D19E3 /* GoogleService-Info.plist */; };
+		81625965F0841F8FF55D714D /* Pods_NBA2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB8EB7BCA5CFB25CB42AB75 /* Pods_NBA2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0791A5AEC803F4E6AD952801 /* Pods-NBA2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBA2.debug.xcconfig"; path = "Target Support Files/Pods-NBA2/Pods-NBA2.debug.xcconfig"; sourceTree = "<group>"; };
 		610536FC26BA7FC8006FD64C /* NBA2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBA2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		610536FF26BA7FC8006FD64C /* NBA2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA2App.swift; sourceTree = "<group>"; };
 		6105370126BA7FC8006FD64C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,10 +42,14 @@
 		6105371C26BA8B38006FD64C /* DateHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelpers.swift; sourceTree = "<group>"; };
 		6105371E26BA8E64006FD64C /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		6105372026BA8E6F006FD64C /* StandingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsView.swift; sourceTree = "<group>"; };
-		6105372226BA8E8A006FD64C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6105372226BA8E8A006FD64C /* LogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutView.swift; sourceTree = "<group>"; };
 		6105372626BA9EAC006FD64C /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		6105372826BA9EBD006FD64C /* InforColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InforColumnView.swift; sourceTree = "<group>"; };
 		614B209326BBCF59000D19E3 /* ConferenceStandingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceStandingsView.swift; sourceTree = "<group>"; };
+		614B20B826BBE5ED000D19E3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		614B20BD26BBED72000D19E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7D11732823F8AAE341DC317C /* Pods-NBA2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBA2.release.xcconfig"; path = "Target Support Files/Pods-NBA2/Pods-NBA2.release.xcconfig"; sourceTree = "<group>"; };
+		EBB8EB7BCA5CFB25CB42AB75 /* Pods_NBA2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBA2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81625965F0841F8FF55D714D /* Pods_NBA2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		117D43B3B9C3ECC94459B858 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0791A5AEC803F4E6AD952801 /* Pods-NBA2.debug.xcconfig */,
+				7D11732823F8AAE341DC317C /* Pods-NBA2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		610536F326BA7FC8006FD64C = {
 			isa = PBXGroup;
 			children = (
 				610536FE26BA7FC8006FD64C /* NBA2 */,
 				610536FD26BA7FC8006FD64C /* Products */,
+				117D43B3B9C3ECC94459B858 /* Pods */,
+				D7938E32544778FF5A6F1C35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +100,7 @@
 				6105370E26BA7FFC006FD64C /* Models */,
 				6105371126BA8036006FD64C /* Helpers */,
 				6105370326BA7FCE006FD64C /* Assets.xcassets */,
+				614B20BD26BBED72000D19E3 /* GoogleService-Info.plist */,
 				6105370826BA7FCE006FD64C /* Info.plist */,
 				6105370526BA7FCE006FD64C /* Preview Content */,
 			);
@@ -107,9 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				6105370126BA7FC8006FD64C /* ContentView.swift */,
-				6105372226BA8E8A006FD64C /* SettingsView.swift */,
 				6105372426BA8FD8006FD64C /* Schedule and Games */,
 				6105372526BA900D006FD64C /* Standings */,
+				614B20BA26BBE604000D19E3 /* Account */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +171,23 @@
 			path = Standings;
 			sourceTree = "<group>";
 		};
+		614B20BA26BBE604000D19E3 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				614B20B826BBE5ED000D19E3 /* LoginView.swift */,
+				6105372226BA8E8A006FD64C /* LogoutView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		D7938E32544778FF5A6F1C35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBB8EB7BCA5CFB25CB42AB75 /* Pods_NBA2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6105370B26BA7FCE006FD64C /* Build configuration list for PBXNativeTarget "NBA2" */;
 			buildPhases = (
+				F4E19A52DAFF9BEB1761BD6B /* [CP] Check Pods Manifest.lock */,
 				610536F826BA7FC8006FD64C /* Sources */,
 				610536F926BA7FC8006FD64C /* Frameworks */,
 				610536FA26BA7FC8006FD64C /* Resources */,
+				919AD1E6488DE1222FE1AA0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,11 +248,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				6105370726BA7FCE006FD64C /* Preview Assets.xcassets in Resources */,
+				614B20BE26BBED72000D19E3 /* GoogleService-Info.plist in Resources */,
 				6105370426BA7FCE006FD64C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		919AD1E6488DE1222FE1AA0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NBA2/Pods-NBA2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NBA2/Pods-NBA2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NBA2/Pods-NBA2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E19A52DAFF9BEB1761BD6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NBA2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		610536F826BA7FC8006FD64C /* Sources */ = {
@@ -226,11 +309,12 @@
 				614B209426BBCF59000D19E3 /* ConferenceStandingsView.swift in Sources */,
 				6105370226BA7FC8006FD64C /* ContentView.swift in Sources */,
 				6105372726BA9EAC006FD64C /* GameView.swift in Sources */,
-				6105372326BA8E8A006FD64C /* SettingsView.swift in Sources */,
+				6105372326BA8E8A006FD64C /* LogoutView.swift in Sources */,
 				6105372926BA9EBD006FD64C /* InforColumnView.swift in Sources */,
 				6105372126BA8E6F006FD64C /* StandingsView.swift in Sources */,
 				6105371F26BA8E64006FD64C /* ScheduleView.swift in Sources */,
 				6105370026BA7FC8006FD64C /* NBA2App.swift in Sources */,
+				614B20B926BBE5ED000D19E3 /* LoginView.swift in Sources */,
 				6105371926BA8AB5006FD64C /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +440,7 @@
 		};
 		6105370C26BA7FCE006FD64C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0791A5AEC803F4E6AD952801 /* Pods-NBA2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -378,6 +463,7 @@
 		};
 		6105370D26BA7FCE006FD64C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D11732823F8AAE341DC317C /* Pods-NBA2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

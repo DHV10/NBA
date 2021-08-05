@@ -12,36 +12,47 @@ struct ContentView: View {
     @EnvironmentObject var model: DataModel
     
     var body: some View {
-        ZStack {
+        
+        if model.loggedIn == false {
             
-            TabView {
-            
-            ScheduleView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "sportscourt")
-                        Text("Scores")
+            LoginView()
+                .onAppear {
+                    model.checkLogin()
+                }
+        } else {
+            ZStack {
+                
+                TabView {
+                
+                ScheduleView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "sportscourt")
+                            Text("Scores")
+                        }
+                    }
+                
+                StandingsView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "list.number")
+                            Text("Standings")
+                        }
+                    }
+                
+                SettingsView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "gearshape")
+                            Text("Settings")
+                        }
                     }
                 }
-            
-            StandingsView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "list.number")
-                        Text("Standings")
-                    }
-                }
-            
-            SettingsView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "gearshape")
-                        Text("Settings")
-                    }
-                }
+                
             }
-            
         }
+        
+       
     }
 }
 
